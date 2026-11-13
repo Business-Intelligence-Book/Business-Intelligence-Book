@@ -13,8 +13,8 @@
 
 | Notebook | Run it |
 |---|---|
-| [Introduction to notebooks](walkthrough/01_intro_to_notebooks.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/00-getting-started/walkthrough/01_intro_to_notebooks.ipynb) |
-| [Markdown and a first Python function](walkthrough/02_markdown_and_python.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/00-getting-started/walkthrough/02_markdown_and_python.ipynb) |
+| [Introduction to notebooks](walkthrough/01_intro_to_notebooks.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/00-getting-started/walkthrough/01_intro_to_notebooks.ipynb) |
+| [Markdown and a first Python function](walkthrough/02_markdown_and_python.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/00-getting-started/walkthrough/02_markdown_and_python.ipynb) |
 
 ## Exercises
 
@@ -22,8 +22,8 @@ Recreate each of the two pages below in your own Colab notebook.
 
 | Exercise | Target | Solution |
 |---|---|---|
-| 1. A short statistics page (headings, formulas, code) | [exercise_1_target.pdf](exercises/exercise_1_target.pdf) | [Solution](exercises/solutions/exercise_1_solution.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/00-getting-started/exercises/solutions/exercise_1_solution.ipynb) |
-| 2. A company profile (image, links, table, video) | [exercise_2_target.pdf](exercises/exercise_2_target.pdf) | [Solution](exercises/solutions/exercise_2_solution.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/00-getting-started/exercises/solutions/exercise_2_solution.ipynb) |
+| 1. A short statistics page (headings, formulas, code) | [exercise_1_target.pdf](exercises/exercise_1_target.pdf) | [Solution](exercises/solutions/exercise_1_solution.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/00-getting-started/exercises/solutions/exercise_1_solution.ipynb) |
+| 2. A company profile (image, links, table, video) | [exercise_2_target.pdf](exercises/exercise_2_target.pdf) | [Solution](exercises/solutions/exercise_2_solution.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/00-getting-started/exercises/solutions/exercise_2_solution.ipynb) |
 
 Links you will need for exercise 1:
 

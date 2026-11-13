@@ -14,13 +14,13 @@
 
 | Notebook | Run it |
 |---|---|
-| [Categorical variables, polynomial regression and overfitting](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/07-regression-2/walkthrough/walkthrough.ipynb) |
+| [Categorical variables, polynomial regression and overfitting](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/07-regression-2/walkthrough/walkthrough.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [Multivariate regression, overfitting and cross-validation](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/07-regression-2/exercises/exercises.ipynb) |
+| [Multivariate regression, overfitting and cross-validation](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/07-regression-2/exercises/exercises.ipynb) |
 
 ## Datasets
 

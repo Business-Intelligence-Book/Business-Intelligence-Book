@@ -14,20 +14,20 @@
 
 | Notebook | Run it |
 |---|---|
-| [Exploratory data analysis](walkthrough/01_exploratory_data_analysis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/walkthrough/01_exploratory_data_analysis.ipynb) |
-| [Web scraping](walkthrough/02_web_scraping.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/walkthrough/02_web_scraping.ipynb) |
+| [Exploratory data analysis](walkthrough/01_exploratory_data_analysis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/walkthrough/01_exploratory_data_analysis.ipynb) |
+| [Web scraping](walkthrough/02_web_scraping.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/walkthrough/02_web_scraping.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [Data cleaning and EDA](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/exercises/exercises.ipynb) |
+| [Data cleaning and EDA](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/exercises/exercises.ipynb) |
 
 ## Extra (optional)
 
 | Notebook | Run it |
 |---|---|
-| [Bonus exercises: telecom customers](extra/bonus_exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/extra/bonus_exercises.ipynb) |
+| [Bonus exercises: telecom customers](extra/bonus_exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/extra/bonus_exercises.ipynb) |
 
 ## Datasets
 

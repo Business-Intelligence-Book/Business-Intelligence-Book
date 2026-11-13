@@ -2,135 +2,35 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Python Labs | Business Intelligence and Analytics</title>
 <meta name="description" content="Python labs for the books Business Intelligence and Analytics, by Michalis Vlachos.">
-<style>*{box-sizing:border-box}body{margin:0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#000;background:#fff;line-height:1.55}
-a{color:inherit}.wrap{max-width:1320px;margin:0 auto;padding:0 40px}
-.hero{padding:48px 0 32px;border-bottom:3px solid #000}.kicker{color:#D7261E;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.05em}
-h1{font-size:52px;line-height:1.05;margin:.15em 0;letter-spacing:-.03em}.sub{font-size:20px;max-width:900px}
-.nav a{margin-right:24px;font-weight:700;text-decoration:none;border-top:3px solid #D7261E;padding-top:4px}
-h2{font-size:14px;text-transform:uppercase;letter-spacing:.12em;color:#D7261E;margin-top:56px;border-top:1px solid #000;padding-top:10px}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}.steps div{border-top:3px solid #000;padding-top:12px}.steps h3{margin:.2em 0}
-.lab{display:flex;gap:32px;border-top:1px solid #000;padding:22px 0}.num{flex:0 0 110px;font-size:28px;font-weight:700;color:#D7261E}
-.body{flex:1}.lab h3{margin:0;font-size:24px}.chap{margin:.1em 0 .8em;color:#555}.cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-h4{font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin:.6em 0 .3em}ul{margin:0;padding-left:20px}ul.nb{list-style:none;padding:0}ul.nb li{margin:4px 0}
-.colab{display:inline-block;margin-left:8px;background:#D7261E;color:#fff;text-decoration:none;font-size:12px;font-weight:700;padding:2px 8px}
-code{background:#f0f0f0;padding:1px 4px;font-size:90%}footer{margin-top:64px;border-top:3px solid #000;padding:20px 0;font-size:13px}
-@media(max-width:800px){.cols,.steps{grid-template-columns:1fr}.lab{flex-direction:column;gap:6px}.wrap{padding:0 20px}h1{font-size:36px}}
+<style>*{box-sizing:border-box}body{margin:0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#000;background:#fff;line-height:1.5}
+a{color:inherit}.wrap{max-width:1000px;margin:0 auto;padding:0 40px}
+.hero{padding:40px 0 24px;border-bottom:3px solid #000}.kicker{color:#D7261E;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.05em;margin:0}
+h1{font-size:44px;line-height:1.05;margin:.15em 0;letter-spacing:-.03em}.sub{font-size:18px;margin:.4em 0 0}
+table{width:100%;border-collapse:collapse;margin-top:28px}th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#D7261E;padding:8px 10px;border-bottom:1px solid #000}
+td{padding:12px 10px;border-bottom:1px solid #ddd;vertical-align:middle}.num{font-weight:700;color:#D7261E;font-size:20px;width:50px}.ch{color:#555;white-space:nowrap}
+.btn{display:inline-block;background:#D7261E;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:4px 12px;margin:2px 2px 2px 0}
+footer{margin:40px 0;font-size:13px}
+@media(max-width:640px){.wrap{padding:0 16px}h1{font-size:32px}.ch{display:none}td,th{padding:8px 4px}}
 </style></head><body>
 <header class="hero"><div class="wrap">
-  <p class="kicker">Business Intelligence and Analytics</p>
+  <p class="kicker"><a href="../" style="text-decoration:none">&larr; Business Intelligence and Analytics</a></p>
   <h1>Python Labs</h1>
-  <p class="sub">Ten hands-on labs that follow the chapters of the book. Each lab has a guided walkthrough and exercises, and runs in the browser with Google Colab. For readers, and for instructors who build a course on the book.</p>
-  <nav class="nav"><a href="../">The books</a><a href="#labs">Labs</a><a href="#how">How it works</a><a href="data/">Data</a></nav>
+  <p class="sub">One lab per topic of the book. Each opens in Google Colab: nothing to install.</p>
 </div></header>
 <main class="wrap">
-<section id="how"><h2>How each lab works</h2>
-<div class="steps">
-  <div><h3>1. Walkthrough</h3><p>A guided notebook shows the method step by step on a real dataset. It opens with what you will learn.</p></div>
-  <div><h3>2. Exercises</h3><p>A notebook with gaps to fill in. Checkpoint questions mark what to get right before moving on.</p></div>
-  <div><h3>3. Run it</h3><p>Click <b>Open in Colab</b>, then choose <i>File, Save a copy in Drive</i> to keep your changes. Nothing needs to be installed.</p></div>
-</div></section>
-<section id="labs"><h2>The labs</h2>
-<article class="lab" id="lab-00">
-  <div class="num">Lab 00</div>
-  <div class="body">
-    <h3>Getting started with notebooks</h3><p class="chap">Markdown and Python basics</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>What a Python notebook is, and how to run one in Google Colab</li><li>How to format text with Markdown: headings, lists, links, images, tables and formulas</li><li>How to run your first lines of Python</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="00-getting-started/walkthrough/01_intro_to_notebooks.ipynb">Introduction to notebooks</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/00-getting-started/walkthrough/01_intro_to_notebooks.ipynb">Open in Colab</a></li><li><a href="00-getting-started/walkthrough/02_markdown_and_python.ipynb">Markdown and a first Python function</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/00-getting-started/walkthrough/02_markdown_and_python.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="00-getting-started/exercises/exercise_1_target.pdf">Exercise 1</a> (<a href="00-getting-started/exercises/solutions/exercise_1_solution.ipynb">solution</a>)</li><li><a href="00-getting-started/exercises/exercise_2_target.pdf">Exercise 2</a> (<a href="00-getting-started/exercises/solutions/exercise_2_solution.ipynb">solution</a>)</li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-01">
-  <div class="num">Lab 01</div>
-  <div class="body">
-    <h3>Python and pandas</h3><p class="chap">Chapters 1–2</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How to load CSV and JSON files into a pandas DataFrame</li><li>How to inspect a dataset: number of rows and columns, data types, missing values</li><li>How to select columns, convert types, group values and save the result</li><li>What an API is, and how to get data from one</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="01-python-and-pandas/walkthrough/01_pandas_basics.ipynb">Basic pandas operations</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/walkthrough/01_pandas_basics.ipynb">Open in Colab</a></li><li><a href="01-python-and-pandas/walkthrough/02_apis.ipynb">Getting data from an API</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/walkthrough/02_apis.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="01-python-and-pandas/exercises/exercises.ipynb">Python and pandas</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/exercises/exercises.ipynb">Open in Colab</a></li></ul><h4>Extra (optional)</h4><ul class="nb"><li><a href="01-python-and-pandas/extra/python_refresher.ipynb">Python refresher</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/python_refresher.ipynb">Open in Colab</a></li><li><a href="01-python-and-pandas/extra/dataset_descriptions.ipynb">Describing a dataset</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/dataset_descriptions.ipynb">Open in Colab</a></li><li><a href="01-python-and-pandas/extra/pandas_selection_1_loc_and_iloc.ipynb">Selecting data, part 1: [ ], .loc and .iloc</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_1_loc_and_iloc.ipynb">Open in Colab</a></li><li><a href="01-python-and-pandas/extra/pandas_selection_2_boolean_indexing.ipynb">Selecting data, part 2: boolean indexing</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_2_boolean_indexing.ipynb">Open in Colab</a></li><li><a href="01-python-and-pandas/extra/pandas_selection_3_assigning_subsets.ipynb">Selecting data, part 3: assigning subsets</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_3_assigning_subsets.ipynb">Open in Colab</a></li><li><a href="01-python-and-pandas/extra/pandas_selection_4_how_not_to_select.ipynb">Selecting data, part 4: how not to select</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_4_how_not_to_select.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-02">
-  <div class="num">Lab 02</div>
-  <div class="body">
-    <h3>Data cleaning and exploratory data analysis</h3><p class="chap">Chapters 2–3</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How to get a first look at a dataset: data types and descriptive statistics</li><li>How to find and handle missing data</li><li>How to use histograms, boxplots, scatter plots and heatmaps to find patterns and correlations</li><li>What web scraping is, and how to collect a table from a web page</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="02-data-cleaning-and-eda/walkthrough/01_exploratory_data_analysis.ipynb">Exploratory data analysis</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/walkthrough/01_exploratory_data_analysis.ipynb">Open in Colab</a></li><li><a href="02-data-cleaning-and-eda/walkthrough/02_web_scraping.ipynb">Web scraping</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/walkthrough/02_web_scraping.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="02-data-cleaning-and-eda/exercises/exercises.ipynb">Data cleaning and EDA</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/exercises/exercises.ipynb">Open in Colab</a></li></ul><h4>Extra (optional)</h4><ul class="nb"><li><a href="02-data-cleaning-and-eda/extra/bonus_exercises.ipynb">Bonus exercises: telecom customers</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/02-data-cleaning-and-eda/extra/bonus_exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-03">
-  <div class="num">Lab 03</div>
-  <div class="body">
-    <h3>Data visualization</h3><p class="chap">Chapter 4</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How to choose the right chart for a question: histogram, boxplot, pie chart, scatter plot, line plot or heatmap</li><li>How to build static charts with matplotlib and seaborn</li><li>How to build interactive charts with ipywidgets and plotly</li><li>How to apply the guidelines for clear and honest charts</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="03-visualization/walkthrough/walkthrough.ipynb">Data visualization</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/03-visualization/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="03-visualization/exercises/exercises.ipynb">Data visualization</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/03-visualization/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-04">
-  <div class="num">Lab 04</div>
-  <div class="body">
-    <h3>Clustering</h3><p class="chap">Chapter 5</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>What clustering is and when it is useful: finding groups in unlabeled data</li><li>How k-means works, and how to choose <i>k</i> with the elbow method</li><li>How hierarchical clustering works, and how to read a dendrogram</li><li>How to visualize and interpret the clusters you find</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="04-clustering/walkthrough/walkthrough.ipynb">Clustering</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/04-clustering/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="04-clustering/exercises/exercises.ipynb">Clustering</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/04-clustering/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-05">
-  <div class="num">Lab 05</div>
-  <div class="body">
-    <h3>Association rules</h3><p class="chap">Chapter 6</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How to prepare transaction data for rule mining</li><li>How to find frequent itemsets with the Apriori algorithm (<code>mlxtend</code>)</li><li>How to compute and read support, confidence and lift</li><li>How to extract and filter the rules that matter</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="05-association-rules/walkthrough/walkthrough.ipynb">Association rules</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/05-association-rules/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="05-association-rules/exercises/exercises.ipynb">Association rules</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/05-association-rules/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-06">
-  <div class="num">Lab 06</div>
-  <div class="body">
-    <h3>Regression I</h3><p class="chap">Chapter 7</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How to split a dataset into a training set and a test set</li><li>How to scale features</li><li>How to fit a linear regression with scikit-learn</li><li>How to evaluate a model with R², MAE and MSE</li><li>How to use several features to predict one target</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="06-regression-1/walkthrough/walkthrough.ipynb">Linear regression</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/06-regression-1/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="06-regression-1/exercises/exercises.ipynb">Linear regression</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/06-regression-1/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-07">
-  <div class="num">Lab 07</div>
-  <div class="body">
-    <h3>Regression II</h3><p class="chap">Chapter 7</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How to use categorical variables in a regression: label encoding and one-hot encoding</li><li>How polynomial regression fits curved relationships</li><li>What overfitting is and how to recognize it</li><li>How cross-validation helps to choose a model</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="07-regression-2/walkthrough/walkthrough.ipynb">Categorical variables, polynomial regression and overfitting</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/07-regression-2/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="07-regression-2/exercises/exercises.ipynb">Multivariate regression, overfitting and cross-validation</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/07-regression-2/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-08">
-  <div class="num">Lab 08</div>
-  <div class="body">
-    <h3>Classification I</h3><p class="chap">Chapter 8</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How classification differs from regression</li><li>How to fit a logistic regression with scikit-learn</li><li>How to predict classes and class probabilities</li><li>How to evaluate a classifier with accuracy and a confusion matrix</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="08-classification-1/walkthrough/walkthrough.ipynb">Logistic regression</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/08-classification-1/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="08-classification-1/exercises/exercises.ipynb">Logistic regression</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/08-classification-1/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-<article class="lab" id="lab-09">
-  <div class="num">Lab 09</div>
-  <div class="body">
-    <h3>Classification II</h3><p class="chap">Chapter 8</p>
-    <div class="cols">
-      <div><h4>What you will learn</h4><ul><li>How the k-nearest neighbors classifier works, and why features must be normalized</li><li>How a decision tree makes its predictions</li><li>How to compare classifiers on a test set</li></ul></div>
-      <div><h4>Walkthrough</h4><ul class="nb"><li><a href="09-classification-2/walkthrough/walkthrough.ipynb">k-nearest neighbors and decision trees</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/09-classification-2/walkthrough/walkthrough.ipynb">Open in Colab</a></li></ul><h4>Exercises</h4><ul class="nb"><li><a href="09-classification-2/exercises/exercises.ipynb">k-nearest neighbors and decision trees</a> <a class="colab" href="https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/09-classification-2/exercises/exercises.ipynb">Open in Colab</a></li></ul></div>
-    </div>
-  </div>
-</article>
-</section>
+<table>
+<tr><th>Lab</th><th>Topic</th><th>Book</th><th>Walkthrough</th><th>Exercises</th></tr>
+<tr><td class="num">00</td><td><b>Getting started with notebooks</b></td><td class="ch">Basics</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/00-getting-started/walkthrough/01_intro_to_notebooks.ipynb">Part 1</a> <a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/00-getting-started/walkthrough/02_markdown_and_python.ipynb">Part 2</a></td><td><a class="btn" href="00-getting-started/exercises/exercise_1_target.pdf">Exercise 1</a> <a class="btn" href="00-getting-started/exercises/exercise_2_target.pdf">Exercise 2</a></td></tr>
+<tr><td class="num">01</td><td><b>Python and pandas</b></td><td class="ch">Ch. 1–2</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/walkthrough/01_pandas_basics.ipynb">Part 1</a> <a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/walkthrough/02_apis.ipynb">Part 2</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">02</td><td><b>Data cleaning and exploratory data analysis</b></td><td class="ch">Ch. 2–3</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/walkthrough/01_exploratory_data_analysis.ipynb">Part 1</a> <a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/walkthrough/02_web_scraping.ipynb">Part 2</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/02-data-cleaning-and-eda/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">03</td><td><b>Data visualization</b></td><td class="ch">Ch. 4</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/03-visualization/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/03-visualization/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">04</td><td><b>Clustering</b></td><td class="ch">Ch. 5</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/04-clustering/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/04-clustering/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">05</td><td><b>Association rules</b></td><td class="ch">Ch. 6</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/05-association-rules/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/05-association-rules/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">06</td><td><b>Regression I</b></td><td class="ch">Ch. 7</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/06-regression-1/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/06-regression-1/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">07</td><td><b>Regression II</b></td><td class="ch">Ch. 7</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/07-regression-2/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/07-regression-2/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">08</td><td><b>Classification I</b></td><td class="ch">Ch. 8</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/08-classification-1/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/08-classification-1/exercises/exercises.ipynb">Open</a></td></tr>
+<tr><td class="num">09</td><td><b>Classification II</b></td><td class="ch">Ch. 8</td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/09-classification-2/walkthrough/walkthrough.ipynb">Open</a></td><td><a class="btn" href="https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/09-classification-2/exercises/exercises.ipynb">Open</a></td></tr>
+</table>
+<footer>In Colab, choose <i>File &rarr; Save a copy in Drive</i> to keep your changes. &nbsp;·&nbsp; &copy; 2026 Michalis Vlachos</footer>
 </main>
-<footer><div class="wrap">&copy; 2026 Michalis Vlachos &nbsp;·&nbsp; <a href="../">Back to the books</a></div></footer>
 </body></html>

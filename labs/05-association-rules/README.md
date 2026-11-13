@@ -14,13 +14,13 @@
 
 | Notebook | Run it |
 |---|---|
-| [Association rules](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/05-association-rules/walkthrough/walkthrough.ipynb) |
+| [Association rules](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/05-association-rules/walkthrough/walkthrough.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [Association rules](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/05-association-rules/exercises/exercises.ipynb) |
+| [Association rules](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/05-association-rules/exercises/exercises.ipynb) |
 
 ## Datasets
 

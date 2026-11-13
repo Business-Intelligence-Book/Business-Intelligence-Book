@@ -14,13 +14,13 @@
 
 | Notebook | Run it |
 |---|---|
-| [Logistic regression](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/08-classification-1/walkthrough/walkthrough.ipynb) |
+| [Logistic regression](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/08-classification-1/walkthrough/walkthrough.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [Logistic regression](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/08-classification-1/exercises/exercises.ipynb) |
+| [Logistic regression](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/08-classification-1/exercises/exercises.ipynb) |
 
 ## Datasets
 

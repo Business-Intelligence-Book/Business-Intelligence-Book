@@ -14,13 +14,13 @@
 
 | Notebook | Run it |
 |---|---|
-| [Data visualization](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/03-visualization/walkthrough/walkthrough.ipynb) |
+| [Data visualization](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/03-visualization/walkthrough/walkthrough.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [Data visualization](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/03-visualization/exercises/exercises.ipynb) |
+| [Data visualization](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/03-visualization/exercises/exercises.ipynb) |
 
 ## Datasets
 

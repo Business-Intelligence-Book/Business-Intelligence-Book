@@ -14,25 +14,25 @@
 
 | Notebook | Run it |
 |---|---|
-| [Basic pandas operations](walkthrough/01_pandas_basics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/walkthrough/01_pandas_basics.ipynb) |
-| [Getting data from an API](walkthrough/02_apis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/walkthrough/02_apis.ipynb) |
+| [Basic pandas operations](walkthrough/01_pandas_basics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/walkthrough/01_pandas_basics.ipynb) |
+| [Getting data from an API](walkthrough/02_apis.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/walkthrough/02_apis.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [Python and pandas](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/exercises/exercises.ipynb) |
+| [Python and pandas](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/exercises/exercises.ipynb) |
 
 ## Extra (optional)
 
 | Notebook | Run it |
 |---|---|
-| [Python refresher](extra/python_refresher.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/python_refresher.ipynb) |
-| [Describing a dataset](extra/dataset_descriptions.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/dataset_descriptions.ipynb) |
-| [Selecting data, part 1: [ ], .loc and .iloc](extra/pandas_selection_1_loc_and_iloc.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_1_loc_and_iloc.ipynb) |
-| [Selecting data, part 2: boolean indexing](extra/pandas_selection_2_boolean_indexing.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_2_boolean_indexing.ipynb) |
-| [Selecting data, part 3: assigning subsets](extra/pandas_selection_3_assigning_subsets.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_3_assigning_subsets.ipynb) |
-| [Selecting data, part 4: how not to select](extra/pandas_selection_4_how_not_to_select.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/01-python-and-pandas/extra/pandas_selection_4_how_not_to_select.ipynb) |
+| [Python refresher](extra/python_refresher.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/extra/python_refresher.ipynb) |
+| [Describing a dataset](extra/dataset_descriptions.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/extra/dataset_descriptions.ipynb) |
+| [Selecting data, part 1: [ ], .loc and .iloc](extra/pandas_selection_1_loc_and_iloc.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/extra/pandas_selection_1_loc_and_iloc.ipynb) |
+| [Selecting data, part 2: boolean indexing](extra/pandas_selection_2_boolean_indexing.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/extra/pandas_selection_2_boolean_indexing.ipynb) |
+| [Selecting data, part 3: assigning subsets](extra/pandas_selection_3_assigning_subsets.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/extra/pandas_selection_3_assigning_subsets.ipynb) |
+| [Selecting data, part 4: how not to select](extra/pandas_selection_4_how_not_to_select.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/01-python-and-pandas/extra/pandas_selection_4_how_not_to_select.ipynb) |
 
 ## Datasets
 

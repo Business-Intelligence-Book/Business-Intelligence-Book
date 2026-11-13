@@ -13,13 +13,13 @@
 
 | Notebook | Run it |
 |---|---|
-| [k-nearest neighbors and decision trees](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/09-classification-2/walkthrough/walkthrough.ipynb) |
+| [k-nearest neighbors and decision trees](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/09-classification-2/walkthrough/walkthrough.ipynb) |
 
 ## Exercises
 
 | Notebook | Run it |
 |---|---|
-| [k-nearest neighbors and decision trees](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/Business-Intelligence-Book/blob/main/labs/09-classification-2/exercises/exercises.ipynb) |
+| [k-nearest neighbors and decision trees](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/09-classification-2/exercises/exercises.ipynb) |
 
 ## Datasets
 
