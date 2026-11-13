@@ -1,25 +1,16 @@
-# Lab 09 · Classification II
+<img src="../assets/lab-09-banner.svg" alt="Lab 09 · Classification II" width="100%">
 
 📖 *Business Intelligence and Analytics* · Chapter 8 &nbsp;|&nbsp; [← Lab 08](../08-classification-1/) · [All labs](../README.md#labs)
 
-> [!NOTE]
-> **💡 What you will learn this week**
->
-> - How the k-nearest neighbors classifier works, and why features must be normalized
-> - How a decision tree makes its predictions
-> - How to compare classifiers on a test set
+<img src="../assets/lab-09-learn.svg" alt="What you will learn this week: How the k-nearest neighbors classifier works, and why features must be normalized; How a decision tree makes its predictions; How to compare classifiers on a test set" width="100%">
 
 ## Walkthrough
 
-| Notebook | Run it |
-|---|---|
-| [k-nearest neighbors and decision trees](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/09-classification-2/walkthrough/walkthrough.ipynb) |
+- [k-nearest neighbors and decision trees](walkthrough/walkthrough.ipynb)
 
 ## Exercises
 
-| Notebook | Run it |
-|---|---|
-| [k-nearest neighbors and decision trees](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/09-classification-2/exercises/exercises.ipynb) |
+- [k-nearest neighbors and decision trees](exercises/exercises.ipynb)
 
 ## Datasets
 

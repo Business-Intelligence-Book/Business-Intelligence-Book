@@ -1,26 +1,16 @@
-# Lab 03 · Data visualization
+<img src="../assets/lab-03-banner.svg" alt="Lab 03 · Data visualization" width="100%">
 
 📖 *Business Intelligence and Analytics* · Chapter 4 &nbsp;|&nbsp; [← Lab 02](../02-data-cleaning-and-eda/) · [All labs](../README.md#labs) · [Lab 04 →](../04-clustering/)
 
-> [!NOTE]
-> **💡 What you will learn this week**
->
-> - How to choose the right chart for a question: histogram, boxplot, pie chart, scatter plot, line plot or heatmap
-> - How to build static charts with matplotlib and seaborn
-> - How to build interactive charts with ipywidgets and plotly
-> - How to apply the guidelines for clear and honest charts
+<img src="../assets/lab-03-learn.svg" alt="What you will learn this week: How to choose the right chart for a question: histogram, boxplot, pie chart, scatter plot, line plot or heatmap; How to build static charts with matplotlib and seaborn; How to build interactive charts with ipywidgets and plotly; How to apply the guidelines for clear and honest charts" width="100%">
 
 ## Walkthrough
 
-| Notebook | Run it |
-|---|---|
-| [Data visualization](walkthrough/walkthrough.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/03-visualization/walkthrough/walkthrough.ipynb) |
+- [Data visualization](walkthrough/walkthrough.ipynb)
 
 ## Exercises
 
-| Notebook | Run it |
-|---|---|
-| [Data visualization](exercises/exercises.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Business-Intelligence-Book/business-intelligence-book.github.io/blob/main/labs/03-visualization/exercises/exercises.ipynb) |
+- [Data visualization](exercises/exercises.ipynb)
 
 ## Datasets
 

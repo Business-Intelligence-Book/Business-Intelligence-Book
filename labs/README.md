@@ -6,7 +6,7 @@
 
 # Business Intelligence and Analytics
 
-**Python labs** for the books by Michalis Vlachos
+**Python Labs**
 
 ![Python](https://img.shields.io/badge/python-3.10+-2F5597) ![Runs on Colab](https://img.shields.io/badge/runs%20on-Colab-ED7D31) ![Labs](https://img.shields.io/badge/labs-10-2F5597) ![Chapters](https://img.shields.io/badge/book%20chapters-1%E2%80%938-ED7D31)
 
@@ -16,7 +16,6 @@
 
 Each lab follows a chapter of *Business Intelligence and Analytics: Data-Driven Decision Making, and Fundamental AI Concepts* and turns its ideas into working Python. Everything runs in the browser with Google Colab, so nothing needs to be installed.
 
-> [!NOTE]
 > **💡 Who is this for?**
 >
 > - **Readers** who want to try the methods of the book on real data.
